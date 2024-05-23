@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
     background: linear-gradient(rgba(247, 240, 240, 0.5),rgba(0, 0, 0, 0.15)), url(../img/white-lines-abstract-background-best-graphics_988016-6.avif);
     background-repeat: no-repeat;
@@ -13,6 +14,9 @@ body{
     width: 100%;
 }
 
+.navbar-toggler-icon{
+display: none;
+}
 .navbar {
   padding: 20px 0px 20px;
 }
@@ -28,6 +32,7 @@ body{
   font-size: 16.06px;
   line-height: 19.78px;
 }
+
 .Banner-Section {
   padding: 15px 0px 10px;
 }
